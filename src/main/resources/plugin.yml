@@ -1,0 +1,4 @@
+name: apitest1
+version: '${project.version}'
+main: org.egyse.apitest1.Apitest1
+api-version: '1.19'
