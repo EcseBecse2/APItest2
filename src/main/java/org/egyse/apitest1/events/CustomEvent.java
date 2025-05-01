@@ -12,6 +12,10 @@ public class CustomEvent extends Event {
         this.player = player;
     }
 
+    public Player getPlayer() {
+        return player;
+    }
+
     public static HandlerList getHandlerList() {
         return handlers;
     }
